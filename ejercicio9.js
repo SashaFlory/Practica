@@ -11,3 +11,9 @@ let suma = pares.reduce(function(previous, current) {
 console.log("Números del conjunto:", array);
 console.log("Números pares:", pares);
 console.log("Suma de números pares:", suma)
+
+//let suma = 0;
+//array.filter((item) => (item%2==0)).map((item) => {
+//    suma=suma+item;
+//});
+//console.log("Suma de números pares:", suma);
